@@ -1,13 +1,17 @@
 # How to install and run this app
 
-## install venv
+## Install mongodb
+Click to download mongodb --> https://repo.mongodb.org/yum/amazon/2/mongodb-org/6.0/x86_64/RPMS/mongodb-org-server-6.0.3-1.amzn2.x86_64.rpm <br />
+Excute and Install "mongodb-windows-x86_64-6.0.3-signed.msi"
+
+## Install venv
 python -m venv .venv
 
-## install dependencies
-.venv\scripts\activate
+## Install dependencies
+.venv\scripts\activate <br />
 pip install -r requirements.txt
 
-## run
+## Run app
 uvicorn main:app --reload
 
 ## How to use this app
